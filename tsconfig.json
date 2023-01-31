@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "target": "ES2016",
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "types",
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*","node_modules/@types/*"]
+        }
+    },
+    "include": [
+        "./src/**/*",
+    ]
+  }
